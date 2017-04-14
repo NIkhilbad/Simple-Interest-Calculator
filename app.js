@@ -9,6 +9,7 @@ $scope.calculate = function(){
   rate = Number(x.rate);
   time = Number(x.time);
   ans = amount*time*rate/1200;
-  res.innerHTML = "The Simple Interest for the given Principal amount is " + parseInt(ans) + "/- rupees only";
+  if(!isNaN(ans))
+	res.innerHTML = "The Simple Interest for the given Principal amount is " + parseInt(ans) + "/- rupees only";
 };
 });

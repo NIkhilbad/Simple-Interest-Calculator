@@ -25,15 +25,15 @@
      <form>
        <div class="form-group">
          <label>Principal Amount(in rupees)</label>
-         <input type="number" class="form-control" style="width:250px;" ng-model="inputData.amount">
+         <input type="number" required class="form-control" style="width:250px;" ng-model="inputData.amount">
        </div>
        <div class="form-group">
          <label>Rate of Interest(in %):</label>
-           <input type="number" class="form-control" style="width:250px;" ng-model="inputData.rate">
+           <input type="number" required class="form-control" style="width:250px;" ng-model="inputData.rate">
        </div>
        <div class="form-group">
          <label>Time(in months):</label>
-           <input type="number" class="form-control" style="width:250px;" ng-model="inputData.time">
+           <input type="number" required class="form-control" style="width:250px;" ng-model="inputData.time">
        </div>
        <div class="form-group">
          <button type="submit" class="btn btn-success" ng-click="calculate()">Calculate</button>
