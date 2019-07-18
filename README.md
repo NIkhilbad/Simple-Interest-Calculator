@@ -5,3 +5,6 @@ This is a sample screenshot of the UI.
 
 ![sampleui](https://github.com/NIkhilbadveli/Simple-Interest-Calculator/blob/master/Annotation%202019-07-18%20083403.png)
 
+![responsive]()
+
+![output]()
